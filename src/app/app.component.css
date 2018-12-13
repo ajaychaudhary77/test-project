@@ -1,0 +1,10 @@
+.mr-5{
+    font-size: 3em;
+    font-weight: 700;
+}
+
+@media (min-width: 1400px) { 
+    .mr-5{
+        font-size: 5em;
+    }
+}
