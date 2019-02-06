@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule }    from '@angular/common/http';
 import { JQueryTestComponent } from './jquery-test/jquery-test.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    JQueryTestComponent
+    JQueryTestComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -17,6 +19,6 @@ import { JQueryTestComponent } from './jquery-test/jquery-test.component';
     HttpClientModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [LoginComponent]
 })
 export class AppModule { }
